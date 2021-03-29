@@ -8,11 +8,9 @@ A Visual Studio solution is provided along with sample images that can be used a
 ## Requirements
 The Solution was generated using the following tools: 
 
-Microsoft Visual Studio Community 2019
-Windows SDK Version 10.0
-
-stb library was used as interface to load/write images in png and jpg formats.
-https://github.com/nothings/stb
+1. Microsoft Visual Studio Community 2019
+2. Windows SDK Version 10.0
+3. stb library was used as interface to load/write images in png and jpg formats. https://github.com/nothings/stb
 
 ## Usage
 The application receives 5 parameters as input
