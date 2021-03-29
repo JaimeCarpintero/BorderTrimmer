@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{19246ebd-996f-456b-afd2-c2713741c074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ImageUtils">
+      <UniqueIdentifier>{3140f7da-dd8d-4461-85f2-a137158ecb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources">
+      <UniqueIdentifier>{d066f121-64f3-4d5a-87f7-d5b2542e81d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\ImageUtils">
+      <UniqueIdentifier>{af7ef49a-f61c-4c54-98fd-c379a2181b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\BorderRemoval">
+      <UniqueIdentifier>{65246472-bfdc-4e1b-8dc4-cf684ea2756c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\BorderRemoval">
+      <UniqueIdentifier>{cc104787-759f-4e15-b328-ff477b0f95f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\BorderRemovalCommandParser">
+      <UniqueIdentifier>{f0553720-5d25-4aac-9b0a-2871d7df94a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sources\BorderRemovalCommandParser">
+      <UniqueIdentifier>{7d24aa24-aa77-4f16-ad59-2aa379506c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\ParseUtils">
+      <UniqueIdentifier>{ee2aa9de-285f-4c13-9a8d-fbefa3b7ca44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ImageUtils\ImageUtils.cpp">
+      <Filter>Source Files\Sources\ImageUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BorderRemoval\LineScanBorderTrimmer.cpp">
+      <Filter>Source Files\Sources\BorderRemoval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BorderRemovalCommandParser\BorderRemovalCommandParser.cpp">
+      <Filter>Source Files\Sources\BorderRemovalCommandParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ImageUtils\ImageUtils.h">
+      <Filter>Include\ImageUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ImageUtils\ImageData.h">
+      <Filter>Include\ImageUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BorderRemoval\IBorderTrimmer.h">
+      <Filter>Include\BorderRemoval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BorderRemoval\LineScanBorderTrimmer.h">
+      <Filter>Include\BorderRemoval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BorderRemoval\AbstractBorderTimmerParameters.h">
+      <Filter>Include\BorderRemoval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BorderRemoval\LineScanBorderTrimmerParameters.h">
+      <Filter>Include\BorderRemoval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BorderRemovalCommandParser\BorderRemovalCommandParser.h">
+      <Filter>Include\BorderRemovalCommandParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ParseUtils\ParseUtils.h">
+      <Filter>Include\ParseUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BorderTrimmer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
